@@ -1,0 +1,6 @@
+{
+  "name": "Study Notes",
+  "description": "Premium eNotes Selling Android application with secure PDF viewer, Razorpay payments, and admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Circle Background or Rounded Box with elegant dark premium gradient -->
+    <path
+        android:pathData="M16,16h96a16,16 0,0 1,16 16v96a16,16 0,0 1,-16 16h-96a16,16 0,0 1,-16 -16v-96a16,16 0,0 1,16 -16z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="128"
+                android:endY="128"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E1736" />
+                <item android:offset="1.0" android:color="#0F0C1B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer glowing ring/circle -->
+    <path
+        android:pathData="M64,16 A48,48 0,1 1,63.9 16"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4F46E5" />
+
+    <!-- Stylized Open Book Pages (Left Side) -->
+    <path
+        android:pathData="M64,96 C50,96 38,88 28,88 L28,42 C38,42 50,50 64,50 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Stylized Open Book Pages (Right Side) -->
+    <path
+        android:pathData="M64,96 C78,96 90,88 100,88 L100,42 C90,42 78,50 64,50 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Graduation cap floating on top -->
+    <path
+        android:pathData="M64,24 L86,34 L64,44 L42,34 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#A855F7"
+        android:fillColor="#A855F7"
+        android:strokeLineJoin="round" />
+        
+    <path
+        android:pathData="M52,39 L52,48 C52,54 76,54 76,48 L76,39"
+        android:strokeWidth="2.5"
+        android:strokeColor="#A855F7"
+        android:fillColor="#00000000" />
+
+    <!-- Cap tassel -->
+    <path
+        android:pathData="M80,35.5 L88,44 L88,49"
+        android:strokeWidth="1.5"
+        android:strokeColor="#6366F1"
+        android:strokeLineCap="round" />
+
+    <!-- Center Spine of Book -->
+    <path
+        android:pathData="M64,50 L64,96"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Glowing accent dots / particles -->
+    <path
+        android:pathData="M34,30 A2,2 0,1 1,33.9 30"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M94,30 A2,2 0,1 1,93.9 30"
+        android:fillColor="#A855F7" />
+    <path
+        android:pathData="M24,60 A1.5,1.5 0,1 1,23.9 60"
+        android:fillColor="#6366F1" />
+    <path
+        android:pathData="M104,60 A1.5,1.5 0,1 1,103.9 60"
+        android:fillColor="#38BDF8" />
+
+</vector>
